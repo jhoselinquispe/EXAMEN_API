@@ -1,6 +1,7 @@
 import mongoose from "../connection/connect.js";
 import modelenum from "../utils/enumModel.js";
 import RolesModel from "./rolesModel.js";
+import ToDoModel from "../ToDoModel.js";
 class UserModel {
   constructor() {
     var roles = new RolesModel();
